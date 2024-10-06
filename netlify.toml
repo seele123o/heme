@@ -1,13 +1,7 @@
 [build]
-  command = "pnpm run build"
-  publish = "public"
+command = "pnpm build"
+publish = "public"
 
-[functions]
-  node_version = "18.12.1"
-  PNPM_VERSION = "9.6.0"
-
-[context.production.environment]
-  NODE_ENV = "production"
-
-[context.production.deploy]
-  command = "pnpm deploy"
+[build.environment]
+NODE_VERSION = "18.12.1"
+PNPM_VERSION = "9.6.0"
