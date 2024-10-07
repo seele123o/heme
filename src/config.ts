@@ -16,7 +16,7 @@ const config: DefaultConfigProps = {
   background_url: "",
   description: "hahaha",
   logo: "logourl",
-  api: "h",
+  api: "https://byegirls.com",
   languages: ["en-US","zh-CN","zh-TW"],
   emojiEndpoint: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/{{code}}.png",
   startYear: 2021
